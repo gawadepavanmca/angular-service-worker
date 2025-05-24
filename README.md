@@ -2,6 +2,17 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.12.
 
+✨ Features
+🔄 Real-Time Sync – Instantly syncs form data between multiple browser tabs
+
+📄 Registration Form – Includes Name, Email, and Password fields with live validation
+
+💡 BroadcastChannel API – Efficient cross-tab communication without polling
+
+💾 localStorage Backup – Automatically restores the latest synced state on tab reload
+
+🎨 Modern UI – Clean and responsive layout with form validation feedback
+
 ## Development server
 
 To start a local development server, run:
