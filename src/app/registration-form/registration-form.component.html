@@ -1,0 +1,25 @@
+div class="form-container">
+  <form [formGroup]="form" (ngSubmit)="onSubmit()">
+    <h2>TabSyncX - Registration Form</h2>
+
+    <label>
+      Name:
+      <input type="text" formControlName="name" />
+    </label>
+    <br /><br />
+
+    <label>
+      Email:
+      <input type="email" formControlName="email" />
+    </label>
+    <br /><br />
+
+    <label>
+      Password:
+      <input type="password" formControlName="password" />
+    </label>
+    <br /><br />
+
+    <button type="submit" [disabled]="form.invalid">Register</button>
+  </form>
+</div>
